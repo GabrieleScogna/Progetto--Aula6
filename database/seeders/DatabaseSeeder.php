@@ -12,11 +12,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+        $restourant = [
+            ["Domino's Pizzas", "Torino"],
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+            ["OSarracin" , "Napoli"],
+            ["Bella Napoli", "Roma"],
+            ["Roxy", "Milano"]
+        
+
+        ];
     }
 }
