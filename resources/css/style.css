@@ -4,7 +4,7 @@ body{
 }
 
 .backgroundHeader{
- background-image: url(/public/media/background.jpg);
+ background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/public/media/background.jpg);
  background-size: cover;
  background-position: center;
  background-attachment: fixed;
