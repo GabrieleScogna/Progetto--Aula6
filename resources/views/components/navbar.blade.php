@@ -18,14 +18,14 @@
               Benvenuto, guest
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Accedi</a></li>
-              <li><a class="dropdown-item" href="#">Registrati</a></li>
+              <li><a class="dropdown-item" href="{{route('login')}}">Accedi</a></li>
+              <li><a class="dropdown-item" href="{{route('register')}}">Registrati</a></li>
             </ul>
           </li>
           @else
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Nome Profilo
+              Benvenuto {{Auth::user()->name}}
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Profilo</a></li>
