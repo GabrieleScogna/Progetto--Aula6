@@ -2,3 +2,10 @@ body{
     overflow-x: hidden;
     margin: 0px;
 }
+
+.backgroundHeader{
+ background-image: url(/public/media/background.jpg);
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+}
