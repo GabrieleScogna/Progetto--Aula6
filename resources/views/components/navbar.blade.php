@@ -29,7 +29,8 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Profilo</a></li>
-              <li><a class="dropdown-item" href="#">Esci</a></li>
+              <li><a class="dropdown-item" href="#" onclick="event.preventDefault(); document.querySelector('#form-logout').submit();">Esci</a></li>
+              <form id="form-logout" action="{{route('logout')}}" method="POST" class="d-none">@csrf</form>
             </ul>
           </li>
           @endguest
