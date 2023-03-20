@@ -14,7 +14,6 @@ class DatabaseSeeder extends Seeder
     {
         $restourant = [
             ["Domino's Pizzas", "Torino"],
-
             ["OSarracin" , "Napoli"],
             ["Bella Napoli", "Roma"],
             ["Roxy", "Milano"]
